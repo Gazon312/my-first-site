@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Marmelad&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0 auto;
+    font-size: 36px;
+    font-family:"Marmelad";
+    font-style: normal;
+    background-color: #A85A8F;
+}
+
+.container {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.acsolot1 {
+    display: flex;
+    align-items: start;
+    margin: 100px;
+}
+
+.header {
+    height: 120px;
+    background-color: #242041;
+    font-family: "Montserrat";
+}
+
+.footer {
+    height: 200px;
+    background-color: #242041;
+    font-family: "Montserrat";
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+a {
+    padding-left: 50px;
+}
+
+li {
+    list-style: none;
+    text-decoration: none;
+    font-size: 48px;
+}
+
+img {
+    max-width: 605px;
+    max-height: 605px;
+}
+
+.dollar {
+    position: fixed;
+    top: 85vh;
+    left: 90vw;
+    max-width: 100px;
+    max-height: 100px
+}
