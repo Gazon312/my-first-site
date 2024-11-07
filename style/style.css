@@ -16,13 +16,34 @@ body {
     justify-content: space-between;
 }
 
-.about {
+.begin {
     display: flex;
     align-items: start;
     margin: 100px;
 }
 
-.adoption {
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.click-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.click-content p {
+    padding-left: 0;
+}
+
+.click-content img {
+    cursor: pointer;
+    padding-top: 20px;
+}
+
+.info {
     display: flex;
     margin: 100px;
     justify-content: center;
@@ -53,7 +74,19 @@ h1 {
 a {
     padding-left: 50px;
     padding-top: 20px;
+    margin-bottom: 20px;
     text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: purple;
+}
+
+p {
+    padding-left: 50px;
+    padding-top: 20px;
+    margin-bottom: 20px;
 }
 
 li {
@@ -84,6 +117,22 @@ img {
     max-height: 100px;
 }
 
+.slide {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bx-wrapper {
+    width: 400px;
+    height: 350px;
+}
+
+.bx-wrapper img {
+    width: 400px;
+    height: 350px;
+}
+
 @media (max-width:1550px) {
     img {
         max-width: 450px;
@@ -92,10 +141,6 @@ img {
 }
 
 @media (max-width:1380px) {
-    .about {
-        flex-wrap: wrap;
-        justify-content: center;
-    }
     .dollar {
         left: 88vw;
     }
@@ -131,4 +176,9 @@ img {
         max-width: 75px;
         max-height: 75px;
     }
+    .begin {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
 }
